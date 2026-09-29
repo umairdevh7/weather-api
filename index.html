@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section class="allElems">
+            <header>
+                <div class="header-1">
+                    <h2 class="date">20 April,2026</h2>
+                    <h1 class="header-time">Saturday, 1:00 pm</h1>
+                    <h4>Islamabad</h4>
+                </div>
+                <div class="header-2">
+                    <h2 class="temp">20°C</h2>
+                     <h4 class="season">Light Rain</h4>
+                    <h3 class="prep">Precipitation: 35%</h3>
+                    <h3 class="humi">Humidity: 49%</h3>
+                    <h3 class="wind">Wind: 10km/h</h3>
+                   
+                </div>
+
+
+            </header>
+            <div class="alleatures">
+                <div class="elem todo" id="0">
+                    <img src="https://plus.unsplash.com/premium_photo-1726729402623-e1a2a8fddd42?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHRvZG8lMjBsaXN0fGVufDB8MnwwfHx8MA%3D%3D"
+                        alt="">
+                    <h2>Todo List</h2>
+                </div>
+                <div class="elem daily" id="1">
+                    <img src="https://images.unsplash.com/photo-1659734807998-6a204d101fef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRhaWx5JTIwcGxhbm5lcnxlbnwwfDJ8MHx8fDA%3D"
+                        alt="">
+                    <h2>Daily Planner</h2>
+                </div>
+                <div class="elem moti" id="2">
+                    <img src="https://plus.unsplash.com/premium_photo-1723914096379-1cb4de74617c?q=80&w=596&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                    <h2>Motivation</h2>
+                </div>
+                <div class="elem pomo" id="3">
+                    <img src="https://plus.unsplash.com/premium_photo-1682125779534-76c5debea767?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2xvY2t8ZW58MHwyfDB8fHww"
+                        alt="">
+                    <h2>Pomodoro Clock</h2>
+                </div>
+            </div>
+        </section>
+        <section class="fullElem todo-list-fullpage">
+            <button class="back" id="0">Close</button>
+            <h1>Your Personalized Todo List</h1>
+            <div class="todo-container">
+                <div class="addTask">
+                    <form class="todo-form" action="">
+                        <input class="todo-input" type="text" placeholder="Enter Task">
+                        <textarea class="todo-textarea" name="" id="" placeholder="Enter Details"></textarea>
+                        <div class="imp">
+                            <input type="checkbox" class="checkbox" name="mark" id="mark">
+                            <label for="mark" class="mark">Mark as Important</label>
+                        </div>
+                        <button>Add Task</button>
+                    </form>
+                </div>
+                <div class="alltask">
+
+                    <div class="task">
+                        <h2 class="task-title">Gym Jao</h2>
+                        <button class="complete">Mark as Completed</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fullElem daily-planner-fullpage">
+            <button class="back" id="1">Close</button>
+            <h2>Plan your Day to be more Productive</h2>
+            <div class="day-planner">
+
+            </div>
+
+        </section>
+        <section class="fullElem motivation-fullpage">
+            <button class="back" id="2">Close</button>
+            <h1>Motivational Quotes</h1>
+            <div class="motivational-container">
+                <div class="motivational-wrapper">
+                    <div class="motivation-1">
+                        <h2>Quote of the day</h2>
+                    </div>
+                    <div class="motivation-2">
+                        <p class="quotee">Show Gratitude for everything you blessed with.</p>
+                    </div>
+                    <div class="motivation-2">
+                        <h5 class="Author">Umair Ali</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fullElem pomodoro-fullpage">
+            <button class="back" id="3">Close</button>
+            <h1>Study With Me!</h1>
+            <h4 class="session">WORK SESSION</h4>
+            <div class="pomo-timer">
+                <h1 class="time">25:00</h1>
+                <button class="start-time">Start</button>
+                <button class="pause-time">Pause</button>
+                <button class="reset-time">Reset</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
